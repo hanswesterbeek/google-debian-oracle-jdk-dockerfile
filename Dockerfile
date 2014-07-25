@@ -8,7 +8,7 @@ RUN \
 
 RUN \
   echo debconf shared/accepted-oracle-license-v1-1 select true | debconf-set-selections && \
-  apt-get install -y oracle-java7-installer &&\
+  apt-get install -y oracle-java8-installer &&\
   apt-get clean
 
-RUN echo "JAVA_HOME=/usr/lib/jvm/java-7-oracle" >> /etc/environment
+RUN echo "JAVA_HOME=/usr/lib/jvm/java-8-oracle" >> /etc/environment
