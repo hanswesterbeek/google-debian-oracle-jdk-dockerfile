@@ -1,2 +1,1 @@
-google-debian-oracle-jdk-dockerfile
-===================================
+Oracle's JDK installed on top of Google's debian/wheezy image
