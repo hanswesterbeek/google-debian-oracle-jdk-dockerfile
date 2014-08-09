@@ -2,6 +2,5 @@ Oracle's JDK installed on top of Google's debian/wheezy image. The footprint see
 
 To check if it works:
 
-`docker run hanswesterbeek/google-debian-oracle-jdk:VERSION java -version`
+`docker run hanswesterbeek/google-debian-oracle-jdk:8 java -version`
 
-Replace version with '7' or '8'.
